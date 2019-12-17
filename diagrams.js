@@ -48,7 +48,7 @@ function scatterPlot() {
     // d3.rgb(r,g,b) takes the RGB values retrieved directly from the csv file (colorValue_)
     // Hint3: set radius of circles to 2
   
-    
+  });    
 
     // 5. If you finished the task:
     // 1. maybe the plot is too big for the screen -> go back an downscale W and H to your screen size
