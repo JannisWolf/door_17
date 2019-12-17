@@ -41,7 +41,7 @@ function createMenu() {
       let a = d3.select("body")
         .append("a")
         .attr("href", "data:text/plain;charset=utf-8," + encodeURIComponent(svg_text))
-        .attr("download", name);
+       .attr("download", name);
       a.node().click();
       a.remove();
     });
